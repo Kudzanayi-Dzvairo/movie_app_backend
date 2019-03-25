@@ -18,6 +18,6 @@ end
 private
 
 def movie_params
-		 params.require(:movie).permit(:id, :description, :title, :poster)
+		 params.require(:movie).permit(:id, :description, :title, :poster, :category)
  end
 end

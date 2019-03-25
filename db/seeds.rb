@@ -20,7 +20,7 @@ upcoming.results.each do |mov|
 		title: mov.title,
     description: mov.overview,
     poster: mov.poster_path,
-		category: 'upcoming'
+		category:'upcoming'
 	)
 end
 
@@ -53,14 +53,4 @@ popular.results.each do |mov|
 end
 
 
-
-
-
-
-
-
-star_wars = Movie.create(title: "Star Wars", poster: "https://lumiere-a.akamaihd.net/v1/images/sb_dolby_worldwide_handout_13x19_v3_lg_use_this_one_cc3cc869.jpeg?region=0%2C0%2C821%2C1200", description: "Awesome movie about some kick ass space guys")
-
 kudzanayi = User.create(name:"kudzanayi", password:'password')
-
-favorites =  UserMovie.create(rating: 5, review: "great movie", user_id:kudzanayi.id, movie_id: star_wars.id)
