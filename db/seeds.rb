@@ -54,3 +54,4 @@ end
 
 
 kudzanayi = User.create(name:"kudzanayi", password:'password')
+max = User.create(name:"Max", password:'test')
