@@ -47,7 +47,7 @@ private
 
 def user_params
 	# byebug
-		 params.require(:user).permit(:id, :name, :password)
+		 params.permit(:id, :name, :password)
 end
 
 
